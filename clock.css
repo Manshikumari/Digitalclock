@@ -1,0 +1,27 @@
+body{
+
+     background-color: #2d2d2d;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+
+}
+#container
+{
+    color: #fff;
+    font-size: 50px;
+}
+.btn
+{
+   height: 60px;
+   width: 200px;
+   background-color: rgb(46, 66, 15);
+   color: white;
+}
+
+.btn:hover
+{
+  background-color: blue;
+  color: white;
+}
