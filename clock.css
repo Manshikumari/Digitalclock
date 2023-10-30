@@ -12,6 +12,11 @@ body{
     color: #fff;
     font-size: 50px;
 }
+.text
+{
+   font-size: 30px;
+   text-shadow: #fff;
+}
 .btn
 {
    height: 60px;
