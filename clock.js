@@ -15,9 +15,18 @@ function stop()
 {
     time = false;
 }
-function Reset()
+function reset()
 {
     time = false;
+   hr=0;
+   mint=0;
+   sec=0;
+   count=0;
+   document.getElementById("hr").innerHTML = "00";
+   document.getElementById("mint").innerHTML = "00";
+   document.getElementById("sec").innerHTML = "00";
+  document.getElementById("count").innerHTML = "00";
+
 }
 function digiwatch()
 {
@@ -43,6 +52,7 @@ function digiwatch()
        mint = 0;
        sec = 0;
      }
+
      document.getElementById("hr").innerHTML = hr;
      document.getElementById("mint").innerHTML = mint;
      document.getElementById("sec").innerHTML = sec;
